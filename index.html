@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maze Engine - Hanyi Zhou</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div id="header">
+      <h1>Maze Engine</h1>
+      <text>by Hanyi Zhou</text>
+    </div>
+    <div id="video">
+      <!-- Video trailer -->
+      <h2>Video</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/LV1IdDq1UPw"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <!-- Screenshots -->
+    <div id="screenshots">
+      <h2>Screenshots</h2>
+      <div>
+        <h3>Level Editor</h3>
+        <img src="images/Editor_Level1.jpeg" alt="Screenshot 1" width="450" />
+        <img src="images/Editor_Level2.jpeg" alt="Screenshot 2" width="450" />
+        <img src="images/Editor_Level3.jpeg" alt="Screenshot 3" width="450" />
+        <h3>Game</h3>
+        <img src="images/Game_Level1.jpeg" alt="Screenshot 4" width="450" />
+        <img src="images/Game_Level2.jpeg" alt="Screenshot 5" width="450" />
+        <img src="images/Game_Level3.jpeg" alt="Screenshot 6" width="450" />
+      </div>
+    </div>
+    <!-- Documentation -->
+    <div id="documentation">
+      <h2>Documentation</h2>
+      <a
+        href="https://hanyi-zhou.github.io/MazeEngine-Doxygen-Documentation/index.html"
+        target="_blank"
+        >View Documentation</a
+      >
+    </div>
+    <!-- Engine architecture image -->
+    <div id="engine-architecture">
+      <h2>Engine Architecture</h2>
+      <img
+        src="images/Engine_Architecture.png"
+        alt="Engine Architecture"
+        width="1000"
+      />
+    </div>
+    <!-- Binary download link -->
+    <div id="binary">
+      <h2>Binary</h2>
+      <a
+        href="https://github.com/Spring24BuildingGameEngines/monorepo-hanyi-zhou/blob/main/finalproject/Engine/MysteryMaze/bin/mazeengine.so"
+        target="_blank"
+        download
+        >Link To Binary</a
+      >
+    </div>
+    <!-- Post mortem -->
+    <div id="post-mortem">
+      <h2>Post Mortem</h2>
+      <p>
+        In this project, I successfully completed a series of tasks. Using C++
+        and SDL3, I implemented an engine responsible for managing game objects
+        and resources. This engine played a crucial role in game development,
+        handling tasks such as graphics rendering, resource loading, and
+        management. I also made the engine data-driven through pybind11,
+        allowing scripts for game objects creating and scene data to be loaded
+        at runtime. To enhance the game's appeal and challenge, I introduced
+        hidden wall elements in the game design, offering players a fresh,
+        strategic gaming experience (which can be my 'wow' factor).
+        Additionally, I utilized SDL3 Mixer in C++ to implement an audio
+        component, enriching the game with background music and various sound
+        effects, making it more vibrant and immersive.
+      </p>
+      <p>
+        Despite achieving some success, I acknowledge certain shortcomings in
+        the project. Due to time and technical constraints, I couldn't realize
+        all ideas and functionalities. For instance, I could enhance user
+        engagement by allowing them to adjust the map size for increased editing
+        freedom, add enemy movement patterns to chase the player for heightened
+        difficulty, display scores on-screen for improved user feedback, and
+        incorporate animated effects like breaking walls or collecting jewels to
+        enhance visual appeal and enjoyment.
+      </p>
+      <p>
+        Overall, I've learned a great deal from this project. After dedicating
+        over 6 hours daily and undergoing significant code revisions, I'm
+        satisfied with my current progress. Reflecting on the project's
+        experiences and shortcomings will better prepare me for future
+        endeavors, enabling me to continually elevate my technical skills and
+        game development capabilities.
+      </p>
+    </div>
+  </body>
+</html>
